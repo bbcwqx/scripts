@@ -1,0 +1,10 @@
+services:
+  aseprite:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ~/dev/aseprite:/home/ubuntu/aseprite
+    working_dir: /home/ubuntu/aseprite
+    user: "${UID:-1000}:${GID:-1000}"
+    command: ./build.sh --auto --norun
