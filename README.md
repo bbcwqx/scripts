@@ -1,9 +1,9 @@
 # scripts
 
-## asperite
+## aseprite
 
-Build [asperite](https://www.aseprite.org/) in a container
+Build [aseprite](https://www.aseprite.org/) in a container
 
 ```bash
-./asperite/build.sh
+./aseprite/build.sh
 ```
